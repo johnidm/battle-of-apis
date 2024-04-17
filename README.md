@@ -13,7 +13,6 @@ The propouse is:
 	- Control create and debit with amount, and limit. 
 	- Provide a report about all transctions.
 
-
 I am using nginex to provide a HTTP load balancer.
 
 ## Commands

@@ -7,6 +7,16 @@ services:
       context: python-fastapi
     ports:
       - 8000
+    deploy:
+      replicas: 2
+
+  node-fastify:
+    build:
+      context: node-fastify
+    ports:
+      - 8010
+    deploy:
+      replicas: 2
 
   nginx-reverse-proxy:
     image: nginx:alpine

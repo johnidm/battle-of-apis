@@ -18,6 +18,14 @@ services:
     deploy:
       replicas: 2
 
+  aspnet-core:
+    build:
+      context: aspnet-core
+    ports:
+      - 8020
+    deploy:
+      replicas: 2
+
   nginx-reverse-proxy:
     image: nginx:alpine
     ports:

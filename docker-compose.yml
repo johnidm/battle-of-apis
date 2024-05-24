@@ -18,9 +18,9 @@ services:
     deploy:
       replicas: 2
 
-  aspnet-core:
+  dotnet-core:
     build:
-      context: aspnet-core
+      context: dotnet-core
     ports:
       - 8020
     deploy:

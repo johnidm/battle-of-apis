@@ -15,4 +15,4 @@ COPY --from=build-env /app/out .
 ENV ASPNETCORE_HTTP_PORTS=8020
 EXPOSE 8020
 
-ENTRYPOINT ["dotnet", "aspnet-core.dll"]
+ENTRYPOINT ["dotnet", "dotnet-core.dll"]

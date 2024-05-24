@@ -5,7 +5,7 @@ app.MapGet("/", () => {
     return new {
         status = "OK",
         hostname = Environment.MachineName,
-        application = "aspnet-core"
+        application = "dotnet-core"
     };
 });
 

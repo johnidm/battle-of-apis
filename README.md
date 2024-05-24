@@ -25,6 +25,7 @@ docker compose up --build
 
 ## References
 
--  https://github.com/zanfranceschi/rinha-de-backend-2024-q1
+- https://github.com/zanfranceschi/rinha-de-backend-2024-q1
 - https://medium.com/@vitaliykorzenkoua/
 - https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
+- https://cursor.sh/

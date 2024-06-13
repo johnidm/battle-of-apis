@@ -26,6 +26,14 @@ services:
     deploy:
       replicas: 2
 
+  go-gin:
+    build:
+      context: go-gin
+    ports:
+      - 8030
+    deploy:
+      replicas: 2
+
   nginx-reverse-proxy:
     image: nginx:alpine
     ports:

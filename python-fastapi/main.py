@@ -6,4 +6,8 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"status": "OK", "hostname": socket.gethostname(), "application": "python-fastapi"}
+    return {
+        "status": "OK",
+        "hostname": socket.gethostname(),
+        "application": "python-fastapi",
+    }

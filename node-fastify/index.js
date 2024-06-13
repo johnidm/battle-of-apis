@@ -10,7 +10,11 @@ const fastify = require('fastify')({
 const { HOST = '0.0.0.0', PORT = '8010' } = process.env;
 
 fastify.get('/', async (request, reply) => {
-    return { status: 'OK', hostname: hostname, application: 'node-fastify' }
+    return {
+        status: 'OK',
+        hostname: hostname,
+        application: 'node-fastify'
+    }
 })
 
 fastify.listen({ host: HOST, port: parseInt(PORT, 10) }, (err, address) => {
